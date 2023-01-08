@@ -1,5 +1,5 @@
 import model
-def run(objekt):
+def for_lesson(objekt):
     lines = [] 
     with open ('lessons.txt', 'rt') as myfile:
         for myline in myfile: 

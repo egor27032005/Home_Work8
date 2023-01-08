@@ -4,7 +4,7 @@ def init(stat, sern):
     st=stat
     ser=sern
 
-def sum():
+def teach_sear():
     lines = [] 
     with open ('teachers.txt', 'rt') as myfile:
         for myline in myfile: 
@@ -17,7 +17,7 @@ def init2(subjet):
     global sub
     sub=subjet
 
-def sum2():
+def less_sear():
     lines = [] 
     with open ('lessons.txt', 'rt') as myfile:
         for myline in myfile: 
